@@ -12,6 +12,7 @@ h1{
 }
 .heading-part{
     display: flex;
+    margin-bottom: 40px;
 }
 .heading-content{
     width: 50%;
@@ -26,7 +27,68 @@ h1{
     color: seashell;
     font-weight: 800;
     border-radius: 40px;
-    background-image: linear-gradient(orange, red );
+    background-image: linear-gradient(to right,orange, red);
 }
 
 /* Section 2 */
+.aboutMe-part{
+    display: flex;
+    margin-bottom: 40px;
+    background-image: url(images/shapes/7.png);
+}
+.aboutMe-content{
+    width: 50%;
+    padding-left: 7%;
+    padding-right: 8%;
+    padding-top: 7%;
+}
+.aboutMe-content img{
+    width: 50%;
+}
+
+/* Section 3 */
+.recipe-text{
+    color: gray;
+    text-align: center;
+    margin: 40px 500px;
+}
+.recipe-name{
+    display: flex;
+}
+
+.recipe-name img{
+    width: 100%;
+}
+.recipe-image{
+    margin: 10px 25px;
+    border-radius: 15px;
+    padding: 10px 12px;
+    box-shadow: gray 5px 10px 30px;
+
+}
+
+/* Section 4 */
+.record-list{
+    display: flex;
+    justify-content: center;
+    box-shadow: gray 5px 10px 30px;
+    margin: 40px 25px;
+    border-radius: 30px;
+}
+.record{
+    padding: 0 200px;
+    margin: 20px 0;
+}
+/* Section 5 */
+footer{
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 100px;
+}
+#food{
+    color: white;
+}
+footer p{
+    color: white;
+}
