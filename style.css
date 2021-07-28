@@ -1,0 +1,32 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Section 1 */
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.heading-part{
+    display: flex;
+}
+.heading-content{
+    width: 50%;
+    padding-left: 8%;
+}
+.heading-content img{
+    width: 70%;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: seashell;
+    font-weight: 800;
+    border-radius: 40px;
+    background-image: linear-gradient(orange, red );
+}
+
+/* Section 2 */
