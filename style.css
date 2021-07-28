@@ -50,7 +50,7 @@ h1{
 .recipe-text{
     color: gray;
     text-align: center;
-    margin: 40px 500px;
+    margin: 40px 200px;
 }
 .recipe-name{
     display: flex;
@@ -76,7 +76,7 @@ h1{
     border-radius: 30px;
 }
 .record{
-    padding: 0 200px;
+    padding: 0 100px;
     margin: 20px 0;
 }
 /* Section 5 */
